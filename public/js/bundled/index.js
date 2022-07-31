@@ -531,6 +531,7 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"8tp2c":[function(require,module,exports) {
+var _polyfill = require("@babel/polyfill");
 var _mapbox = require("./mapbox");
 var _login = require("./login");
 var _updateSettings = require("./updateSettings");
