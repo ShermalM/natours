@@ -42,12 +42,23 @@ exports.getTour = catchAsync(async (request, response, next) => {
     });
 });
 
-exports.getLoginForm = (request, response) => {
+exports.getLoginForm = (request, response, next) => {
+    if(response.locals.user) return next(new AppError('You are already logged in as a user', 404));
+
     // Render template
     response.status(200).render('login', {
         title: 'Log into your account'
     });
 };
+
+exports.getSignupForm = (request, response, next) => {
+    if(response.locals.user) return next(new AppError('You are already logged in as a user', 404));
+
+    // Render template
+    response.status(200).render('signup', {
+        title: 'Sign up here'
+    });
+}
 
 exports.getAccount = (request, response) => {
     // Render template

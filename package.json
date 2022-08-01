@@ -12,7 +12,9 @@
     "start:prod": "SET NODE_ENV=production&& nodemon server.js",
     "debug": "ndb server.js",
     "watch:js": "parcel watch ./public/js/index.js --dist-dir ./public/js/bundled",
-    "build:js": "parcel build ./public/js/index.js --dist-dir ./public/js/bundled"
+    "build:js": "parcel build ./public/js/index.js --dist-dir ./public/js/bundled",
+    "push:heroku": "git push heroku master",
+    "push:github": "git push origin master"
   },
   "author": "Shermal Marasinghe",
   "license": "ISC",
