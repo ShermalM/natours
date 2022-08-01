@@ -1,3 +1,6 @@
 # Natours Application
 
-Built using modern technologies: node.js, express, mongoDB, mongoose
+Built a web application and RESTful API using Node.js, following the MVC architecture. Utilized tools and libraries including Express, Mongoose, MongoDB, Stripe, Sendgrid, Pug and more. Hosted on Heroku PaaS.
+
+CSS styling provided from Udemy Course that I learnt from:
+https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/
