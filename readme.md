@@ -7,3 +7,6 @@ https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/
 
 Link to website:
 https://shermal-natours.herokuapp.com/
+
+API Documentation:
+https://documenter.getpostman.com/view/16480269/UzXKXKLL
